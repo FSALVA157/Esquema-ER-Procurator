@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-22T22:14:53.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="O5um4VWf-XeYlE607Kvy" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-22T22:48:46.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="DDIj9i5Pzkk1_hhencul" version="13.6.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -546,7 +546,7 @@
         <mxCell id="1Fh0ZMsNQA9fLrljphhs-58" value="+ movimiento: varchar(100)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
           <mxGeometry y="52" width="276.92" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1Fh0ZMsNQA9fLrljphhs-62" value="+ etapa: int&amp;nbsp;&lt;br&gt;(nota: esta clave de etapa sera utilizada para actualizar el campo etapa de la tabla casos)&lt;br&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
+        <mxCell id="1Fh0ZMsNQA9fLrljphhs-62" value="+ etapa_id: int&amp;nbsp;&lt;br&gt;(nota: esta clave de etapa sera utilizada para actualizar el campo etapa de la tabla casos)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
           <mxGeometry y="78" width="276.92" height="72" as="geometry" />
         </mxCell>
         <mxCell id="1Fh0ZMsNQA9fLrljphhs-59" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
