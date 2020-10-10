@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-10T15:26:09.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="KzR7qROnroiZ3Gt1LSmK" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-10T15:30:21.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="rUzQXbmCjlk5YOfetWzD" version="13.7.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -595,23 +595,17 @@
         <mxCell id="1Fh0ZMsNQA9fLrljphhs-91" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-87" vertex="1">
           <mxGeometry y="100" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="1Fh0ZMsNQA9fLrljphhs-56" value="tipo_movimiento" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="389.99999999999994" y="570" width="276.92" height="220" as="geometry" />
+        <mxCell id="1Fh0ZMsNQA9fLrljphhs-56" value="tipo_movimiento" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=4;fillColor=none;fontFamily=Verdana;fontSize=12;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="390" y="570" width="276.92" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1Fh0ZMsNQA9fLrljphhs-57" value="+ id_tipo_mov: int - autoinc - Primary Key" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=3;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
           <mxGeometry y="26" width="276.92" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1Fh0ZMsNQA9fLrljphhs-58" value="+ movimiento: varchar(100)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
+        <mxCell id="1Fh0ZMsNQA9fLrljphhs-58" value="+ tipo_movimiento: varchar(100)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
           <mxGeometry y="52" width="276.92" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1Fh0ZMsNQA9fLrljphhs-62" value="+ etapa_id: int&amp;nbsp;&lt;br&gt;(nota: esta clave de etapa sera utilizada para actualizar el campo etapa de la tabla casos)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
-          <mxGeometry y="78" width="276.92" height="72" as="geometry" />
-        </mxCell>
         <mxCell id="1Fh0ZMsNQA9fLrljphhs-59" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
-          <mxGeometry y="150" width="276.92" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="zC_--kCYUErz7CyRi--y-3" value="(&lt;font color=&quot;#ff0000&quot;&gt;listado de movimientos asociadosa una etapa - podria agregarse una cronologia de movimientos y un numero que represente un periodo entre cada uno? para poder automatizar las alertas&lt;/font&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1Fh0ZMsNQA9fLrljphhs-56" vertex="1">
-          <mxGeometry y="158" width="276.92" height="62" as="geometry" />
+          <mxGeometry y="78" width="276.92" height="8" as="geometry" />
         </mxCell>
         <mxCell id="1Fh0ZMsNQA9fLrljphhs-78" value="usuario_cliente" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="399.99999999999994" y="820" width="260" height="95" as="geometry" />
@@ -736,6 +730,12 @@
               <mxPoint x="1950" y="360" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1Fh0ZMsNQA9fLrljphhs-62" value="+ etapa_id: int&amp;nbsp;&lt;br&gt;(nota: esta clave de etapa sera utilizada para actualizar el campo etapa de la tabla casos)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
+          <mxGeometry x="780" y="800" width="276.92" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_--kCYUErz7CyRi--y-3" value="(&lt;font color=&quot;#ff0000&quot;&gt;listado de movimientos asociadosa una etapa - podria agregarse una cronologia de movimientos y un numero que represente un periodo entre cada uno? para poder automatizar las alertas&lt;/font&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
+          <mxGeometry x="790" y="880" width="276.92" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
