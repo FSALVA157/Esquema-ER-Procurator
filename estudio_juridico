@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T22:22:27.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="DijaalCaY9x8Ql_yTs9x" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T22:26:23.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Q5JeBen30w8RJ6r-s8z_" version="13.8.1" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -704,7 +704,7 @@
         <mxCell id="3x1fuJn73WAH8t8vIP1e-7" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="3x1fuJn73WAH8t8vIP1e-1" vertex="1">
           <mxGeometry y="242" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="r1qKM9HJf2ZULJDMTc-a-8" value="tercero" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=6;fillColor=none;fontFamily=Verdana;fontSize=12;strokeColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="r1qKM9HJf2ZULJDMTc-a-8" value="tercero" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1961.54" y="710" width="276.92" height="270" as="geometry">
             <mxRectangle x="90" y="83" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
