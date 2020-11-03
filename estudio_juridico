@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T15:03:50.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="tP6h3OtC4T7NNztKSzq6" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T15:28:56.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="vPo436ED3LwpiMOH6o0i" version="13.8.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -800,7 +800,7 @@
         <mxCell id="y5ht0VkY464nt2V5v_vE-6" value="+ recibo: varchar(50) nullable (solo corresponde si es tipo abono)" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y5ht0VkY464nt2V5v_vE-1" vertex="1">
           <mxGeometry y="190" width="300" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="y5ht0VkY464nt2V5v_vE-7" value="+ tipo_cargo: varchar(100) not null (si se encuentra tabulado sera usado para conectar a tabla que establezaca porcentaje para calculo automatico)" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y5ht0VkY464nt2V5v_vE-1" vertex="1">
+        <mxCell id="y5ht0VkY464nt2V5v_vE-7" value="+ tipo_cargo: varchar(50) not null (si se encuentra tabulado sera usado para conectar a tabla que establezaca porcentaje para calculo automatico)" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="y5ht0VkY464nt2V5v_vE-1" vertex="1">
           <mxGeometry y="226" width="300" height="54" as="geometry" />
         </mxCell>
       </root>
